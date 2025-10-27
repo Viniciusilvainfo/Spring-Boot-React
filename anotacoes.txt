@@ -1,0 +1,49 @@
+Para começar um projeto Spring Boot
+
+https://start.spring.io
+
+Preencha os campos:
+
+Project: Maven Project (ou Gradle se preferir)
+
+Language: Java
+
+Spring Boot: escolha a versão estável mais recente
+
+Project Metadata:
+
+Group: com.seuprojeto
+
+Artifact: meuapp
+
+Name: meuapp
+
+Package name: com.seuprojeto.meuapp
+
+Packaging: Jar
+
+Java: sua versão (17, 21, etc.)
+
+Dependências básicas:
+
+Adicione conforme o tipo de app:
+
+Para uma API REST:
+
+Spring Web
+
+Spring Boot DevTools
+
+Lombok
+
+Se quiser banco de dados:
+
+Spring Data JPA
+
+H2 Database (para testes) ou MySQL Driver / PostgreSQL Driver
+
+Depois clique em “Generate” — o site vai baixar um arquivo .zip.
+
+No terminal, dentro da pasta do projeto:
+
+./mvnw spring-boot:run
